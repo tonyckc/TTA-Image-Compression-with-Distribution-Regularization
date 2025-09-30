@@ -1,0 +1,1 @@
+from .functions import define_dictionary, plot_rate_distorsion, Colors, new_names 
