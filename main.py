@@ -15,7 +15,7 @@ parser = argparse.ArgumentParser(prog='main')
 
 parser.add_argument('-q', '--quality', default=0, required=False, help='quality = {0,...,7}')
 parser.add_argument('-mr', '--model_root', default='your_path/image_coding/',required=False, help='root of model tar')
-parser.add_argument('-dr', '--data_root', default='your_path/ckc/image_coding/kodak_images',required=False, help='root of kodak_images dataset')
+parser.add_argument('-dr', '--data_root', default='your_path/image_coding/kodak_images',required=False, help='root of kodak_images dataset')
 parser.add_argument('-mn', '--model_name', default='cheng',required=False, help='cheng or hyper')
 parser.add_argument('-rn', '--run_name', default='-',required=False, )
 parser.add_argument('-gn', '--gpu_id', required=False, default=1,)
